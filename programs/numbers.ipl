@@ -1,0 +1,26 @@
+# numbers.ipl: Program for the commands break and continue
+
+# This program uses function rand in order to find numbers and print them
+# If a number is even, then i is not increased
+# If there is a number that is divided by 3, the loop stops
+# We can find up to 5 numbers that are not divided by 2 or 3
+
+i=0
+while i<5
+	random num
+	temp=num%2
+	if temp==0   # If a number is divided by 2
+		writeln 2
+		write num   # Print number
+		div=num/2
+		writeln div   # Print the result of the perfect division
+		continue   # Find another number
+	temp=num%3
+	if temp==0   # If a number is divided by 3
+		writeln 3
+		write num
+		div=num/3
+		writeln div
+		break   # Do not search for more numbers
+	writeln num   # Print just the number, if it is not divided by 2 or 3
+	i=i+1
