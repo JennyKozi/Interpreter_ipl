@@ -8,7 +8,7 @@ The language supports commands such as while, if, else, break, continue,...
 
 Programms written in ipl can be found in the folder programs.
 
-The program kalmpr.ipl is this [project](https://github.com/JennyKozi/C_Projects/tree/main/K-Almost_Primes) written in ipl.
+The program kalmpr.ipl is this [project](https://github.com/JennyKozi/Algorithmic_Projects_in_C/tree/main/K-Almost_Primes) written in ipl.
 
 Use the Makefile to compile, run and clean using the following commands:
 
